@@ -1,0 +1,22 @@
+# Agent memory store (plain text local state)
+/.agent-memory/
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Build and isolated CI environments
+build/
+dist/
+*.egg-info/
+.tmp-*/
+.tmp_*/
